@@ -1,4 +1,6 @@
-FROM node:boron
+FROM alicanc/boron
+# TODO: Just use node:boron when it works
+# FROM node:boron
 
 # Update
 RUN apt-get update -y
